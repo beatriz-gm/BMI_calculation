@@ -36,7 +36,7 @@ body, input, button {
 
 .container {
   display: grid;
-  height: 100vh;
+  height: 70vh;
   place-content: center;
 }
 
@@ -47,6 +47,7 @@ body, input, button {
   border-radius: 6px;
   max-width: 28rem;
   margin-inline: auto;
+  top: -11rem;
 }
 
 .title {
@@ -136,6 +137,16 @@ button:hover {
     font-size: 3.2rem;
     line-height: 4rem;
   }
+  .container {
+  height: 100vh;
+  }
+  .modal button {
+    margin-top: 1.6rem;
+    margin-right: 1.6rem;
+  }
+  .card {
+    top: 0;
+  }
 }
 
 /* modal - popup */
@@ -165,8 +176,8 @@ button:hover {
   border: none;
 
   position: absolute;
-  top: 1.6rem;
-  right: 1.6rem;
+  top: .8rem;
+  right: .8rem;
 
   cursor: pointer;
 
