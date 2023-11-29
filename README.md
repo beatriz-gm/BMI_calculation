@@ -10,4 +10,7 @@ Calcule seu IMC a partir do seu peso e sua altura enrtando pelo link: https://be
 ![alt text](assets/modal.png "result")
 
 ## Tecnologias utilizadas:
-Figma, HTML, CSS e JavaScript
+- Figma
+- HTML
+- CSS
+- JavaScript
